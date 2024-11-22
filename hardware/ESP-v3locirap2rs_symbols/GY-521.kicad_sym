@@ -27,7 +27,7 @@
 				(justify right top)
 			)
 		)
-		(property "Footprint" "ESP-v3locirap2rs_footprints:GY-521"
+		(property "Footprint" "digikey-footprints:GY-521"
 			(at 0 0 0)
 			(effects
 				(font
