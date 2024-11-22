@@ -578,6 +578,14 @@
     [
       "1e8ac7e4-9b26-4abc-8f5a-d72e2e725c2d",
       "Root"
+    ],
+    [
+      "15d1da46-527f-4cf7-a98d-c873e1d044e3",
+      "ESP32"
+    ],
+    [
+      "53dc9d8c-0f59-4e03-899d-71f025b1d0ab",
+      "GY521"
     ]
   ],
   "text_variables": {}
