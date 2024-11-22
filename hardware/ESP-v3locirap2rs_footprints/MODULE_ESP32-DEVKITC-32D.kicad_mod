@@ -546,7 +546,7 @@
 		(solder_mask_margin 0.102)
 		(uuid "dc09959d-811d-4528-a7ba-2a3e1d4c0e1f")
 	)
-	(model "/home/niftion/Documents/GitHub/ESP-v3locirap2rs/hardware/ESP-v3locirap2rs_3dmodels/ESP32-DEVKITC-32D.step"
+	(model "${KIPRJMOD}/../ESP-v3locirap2rs_3dmodels/ESP32-DEVKITC-32D.step"
 		(offset
 			(xyz 0 0 0)
 		)
