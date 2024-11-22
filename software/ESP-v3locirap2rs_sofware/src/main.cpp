@@ -7,8 +7,6 @@
 #define PWR_MGMT_1 0x6B // Power management register
 #define AX_REG 0x3B // Accelerometer X-axis high byte
 
-char* convert_int16_to_str(int16_t i);
-
 void setup() {
 
 	// setup serial
