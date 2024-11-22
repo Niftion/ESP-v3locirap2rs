@@ -1,0 +1,331 @@
+(pcb freerouting.dsn
+  (parser
+    (string_quote ")
+    (space_in_quoted_tokens on)
+    (host_cad "KiCad's Pcbnew")
+    (host_version "8.0.6-8.0.6-0~ubuntu22.04.1")
+  )
+  (resolution um 10)
+  (unit um)
+  (structure
+    (layer F.Cu
+      (type signal)
+      (property
+        (index 0)
+      )
+    )
+    (layer B.Cu
+      (type signal)
+      (property
+        (index 1)
+      )
+    )
+    (boundary
+      (path pcb 0  127500 -122500  125000 -131500  100000 -131500  97500 -122500
+            97500 -53500  127500 -53500  127500 -122500)
+    )
+    (via "Via[0-1]_600:300_um")
+    (rule
+      (width 200)
+      (clearance 200)
+      (clearance 200 (type default_smd))
+      (clearance 50 (type smd_smd))
+    )
+  )
+  (placement
+    (component "ESP-v3locirap2rs_footprints:GY-521"
+      (place ACC1 101523.400000 -113230.000000 front -90.000000 (PN "GY-521"))
+    )
+    (component "ESP-v3locirap2rs_footprints:MODULE_ESP32-DEVKITC-32D"
+      (place U1 112500.000000 -82000.000000 front 180.000000 (PN "ESP32-DEVKITC-32D"))
+    )
+  )
+  (library
+    (image "ESP-v3locirap2rs_footprints:GY-521"
+      (outline (path signal 304.8  10533 10339.6  10610.9 10321.8  10673.4 10272  10708.1 10200
+            10708.1 10120  10673.4 10048  10610.9 9998.18  10533 9980.4
+            10455.1 9998.18  10392.6 10048  10357.9 10120  10357.9 10200
+            10392.6 10272  10455.1 10321.8  10533 10339.6))
+      (outline (path signal 304.8  9263 8890  9898 9017))
+      (outline (path signal 304.8  9263 8890  9390 9525))
+      (outline (path signal 304.8  10533 10160  9263 8890))
+      (outline (path signal 304.8  12311 10160  11803 9779))
+      (outline (path signal 304.8  11803 10541  12311 10160))
+      (outline (path signal 304.8  10533 10160  12311 10160))
+      (outline (path signal 304.8  10533 12065  10152 11557))
+      (outline (path signal 304.8  10914 11557  10533 12065))
+      (outline (path signal 304.8  10533 10160  10533 12065))
+      (outline (path signal 127  13708 3638.43  13953.2 3619.6  14192.7 3563.57  14420.8 3471.63
+            14632.2 3345.95  14822 3189.47  14985.6 3005.86  15119.3 2799.42
+            15219.9 2575  15285 2337.85  15313.3 2093.53  15303.8 1847.77
+            15257 1606.33  15173.9 1374.86  15056.4 1158.8  14907.3 963.201
+            14730.1 792.657  14528.9 651.162  14308.5 542.032  14074 467.826
+            13831 430.284  13585 430.284  13342 467.826  13107.5 542.032
+            12887.1 651.162  12685.9 792.657  12508.7 963.201  12359.6 1158.8
+            12242.1 1374.86  12159 1606.33  12112.2 1847.77  12102.7 2093.53
+            12131 2337.85  12196.1 2575  12296.7 2799.42  12430.4 3005.86
+            12594 3189.47  12783.8 3345.95  12995.2 3471.63  13223.3 3563.57
+            13462.8 3619.6  13708 3638.43))
+      (outline (path signal 127  13708 20402.4  13953.2 20383.6  14192.7 20327.6  14420.8 20235.6
+            14632.2 20109.9  14822 19953.5  14985.6 19769.9  15119.3 19563.4
+            15219.9 19339  15285 19101.8  15313.3 18857.5  15303.8 18611.8
+            15257 18370.3  15173.9 18138.9  15056.4 17922.8  14907.3 17727.2
+            14730.1 17556.7  14528.9 17415.2  14308.5 17306  14074 17231.8
+            13831 17194.3  13585 17194.3  13342 17231.8  13107.5 17306  12887.1 17415.2
+            12685.9 17556.7  12508.7 17727.2  12359.6 17922.8  12242.1 18138.9
+            12159 18370.3  12112.2 18611.8  12102.7 18857.5  12131 19101.8
+            12196.1 19339  12296.7 19563.4  12430.4 19769.9  12594 19953.5
+            12783.8 20109.9  12995.2 20235.6  13223.3 20327.6  13462.8 20383.6
+            13708 20402.4))
+      (outline (path signal 127  12692 12446  8628 12446))
+      (outline (path signal 127  12692 8382  12692 12446))
+      (outline (path signal 127  8628 8382  12692 8382))
+      (outline (path signal 127  8628 12446  8628 8382))
+      (outline (path signal 406.4  0 22000  0 0))
+      (outline (path signal 406.4  16150 22000  0 22000))
+      (outline (path signal 406.4  16150 0  16150 22000))
+      (outline (path signal 406.4  0 0  16150 0))
+      (pin Oval[A]Pad_3000x1500_um INT 1770 2064)
+      (pin Oval[A]Pad_3000x1500_um AD0 1770 4604)
+      (pin Oval[A]Pad_3000x1500_um VCC 1770 19844)
+      (pin Oval[A]Pad_3000x1500_um GND 1770 17304)
+      (pin Oval[A]Pad_3000x1500_um SCL 1770 14764)
+      (pin Oval[A]Pad_3000x1500_um SDA 1770 12224)
+      (pin Oval[A]Pad_3000x1500_um XDA 1770 9684)
+      (pin Oval[A]Pad_3000x1500_um XCL 1770 7144)
+    )
+    (image "ESP-v3locirap2rs_footprints:MODULE_ESP32-DEVKITC-32D"
+      (outline (path signal 200  -14700 19760  -14684.1 19814.1  -14641.5 19851  -14585.8 19859
+            -14534.5 19835.6  -14504.1 19788.2  -14504.1 19731.8  -14534.5 19684.4
+            -14585.8 19661  -14641.5 19669  -14684.1 19705.9  -14700 19760))
+      (outline (path signal 127  13950 -27250  -13950 -27250))
+      (outline (path signal 127  13950 27150  13950 -27250))
+      (outline (path signal 127  -13950 -27250  -13950 27150))
+      (outline (path signal 127  -13950 27150  13950 27150))
+      (outline (path signal 50  14200 -27500  -14200 -27500))
+      (outline (path signal 50  14200 27400  14200 -27500))
+      (outline (path signal 50  -14200 -27500  -14200 27400))
+      (outline (path signal 50  -14200 27400  14200 27400))
+      (outline (path signal 200  -14700 19760  -14684.1 19814.1  -14641.5 19851  -14585.8 19859
+            -14534.5 19835.6  -14504.1 19788.2  -14504.1 19731.8  -14534.5 19684.4
+            -14585.8 19661  -14641.5 19669  -14684.1 19705.9  -14700 19760))
+      (outline (path signal 127  13950 -27250  -13950 -27250))
+      (outline (path signal 127  13950 27150  13950 -27250))
+      (outline (path signal 127  -13950 -27250  -13950 27150))
+      (outline (path signal 127  -13950 27150  13950 27150))
+      (pin Round[A]Pad_1560_um "J3-19" 12700 -25960)
+      (pin Round[A]Pad_1560_um "J3-18" 12700 -23420)
+      (pin Round[A]Pad_1560_um "J3-17" 12700 -20880)
+      (pin Round[A]Pad_1560_um "J3-16" 12700 -18340)
+      (pin Round[A]Pad_1560_um "J3-15" 12700 -15800)
+      (pin Round[A]Pad_1560_um "J3-14" 12700 -13260)
+      (pin Round[A]Pad_1560_um "J3-13" 12700 -10720)
+      (pin Round[A]Pad_1560_um "J3-12" 12700 -8180)
+      (pin Round[A]Pad_1560_um "J3-11" 12700 -5640)
+      (pin Round[A]Pad_1560_um "J3-10" 12700 -3100)
+      (pin Round[A]Pad_1560_um "J3-9" 12700 -560)
+      (pin Round[A]Pad_1560_um "J3-8" 12700 1980)
+      (pin Round[A]Pad_1560_um "J3-7" 12700 4520)
+      (pin Round[A]Pad_1560_um "J3-6" 12700 7060)
+      (pin Round[A]Pad_1560_um "J3-5" 12700 9600)
+      (pin Round[A]Pad_1560_um "J3-4" 12700 12140)
+      (pin Round[A]Pad_1560_um "J3-3" 12700 14680)
+      (pin Round[A]Pad_1560_um "J3-2" 12700 17220)
+      (pin Round[A]Pad_1560_um "J3-1" 12700 19760)
+      (pin Round[A]Pad_1560_um "J2-19" -12700 -25960)
+      (pin Round[A]Pad_1560_um "J2-18" -12700 -23420)
+      (pin Round[A]Pad_1560_um "J2-17" -12700 -20880)
+      (pin Round[A]Pad_1560_um "J2-16" -12700 -18340)
+      (pin Round[A]Pad_1560_um "J2-15" -12700 -15800)
+      (pin Round[A]Pad_1560_um "J2-14" -12700 -13260)
+      (pin Round[A]Pad_1560_um "J2-13" -12700 -10720)
+      (pin Round[A]Pad_1560_um "J2-12" -12700 -8180)
+      (pin Round[A]Pad_1560_um "J2-11" -12700 -5640)
+      (pin Round[A]Pad_1560_um "J2-10" -12700 -3100)
+      (pin Round[A]Pad_1560_um "J2-9" -12700 -560)
+      (pin Round[A]Pad_1560_um "J2-8" -12700 1980)
+      (pin Round[A]Pad_1560_um "J2-7" -12700 4520)
+      (pin Round[A]Pad_1560_um "J2-6" -12700 7060)
+      (pin Round[A]Pad_1560_um "J2-5" -12700 9600)
+      (pin Round[A]Pad_1560_um "J2-4" -12700 12140)
+      (pin Round[A]Pad_1560_um "J2-3" -12700 14680)
+      (pin Round[A]Pad_1560_um "J2-2" -12700 17220)
+      (pin Rect[A]Pad_1560x1560_um "J2-1" -12700 19760)
+    )
+    (padstack Round[A]Pad_1560_um
+      (shape (circle F.Cu 1560))
+      (shape (circle B.Cu 1560))
+      (attach off)
+    )
+    (padstack Oval[A]Pad_3000x1500_um
+      (shape (path F.Cu 1500  -750 0  750 0))
+      (shape (path B.Cu 1500  -750 0  750 0))
+      (attach off)
+    )
+    (padstack Rect[A]Pad_1560x1560_um
+      (shape (rect F.Cu -780 -780 780 780))
+      (shape (rect B.Cu -780 -780 780 780))
+      (attach off)
+    )
+    (padstack "Via[0-1]_600:300_um"
+      (shape (circle F.Cu 600))
+      (shape (circle B.Cu 600))
+      (attach off)
+    )
+  )
+  (network
+    (net "unconnected-(ACC1-PadAD0)"
+      (pins ACC1-AD0)
+    )
+    (net /ESP32/SDA
+      (pins ACC1-SDA U1-"J3-6")
+    )
+    (net "unconnected-(ACC1-PadXCL)"
+      (pins ACC1-XCL)
+    )
+    (net /ESP32/3.3V
+      (pins ACC1-VCC U1-"J2-1")
+    )
+    (net "unconnected-(ACC1-PadXDA)"
+      (pins ACC1-XDA)
+    )
+    (net /ESP32/SCL
+      (pins ACC1-SCL U1-"J3-3")
+    )
+    (net "unconnected-(ACC1-PadINT)"
+      (pins ACC1-INT)
+    )
+    (net GND
+      (pins ACC1-GND U1-"J2-14")
+    )
+    (net "unconnected-(U1-EN-PadJ2-2)"
+      (pins U1-"J2-2")
+    )
+    (net "unconnected-(U1-EXT_5V-PadJ2-19)"
+      (pins U1-"J2-19")
+    )
+    (net "unconnected-(U1-IO27-PadJ2-11)"
+      (pins U1-"J2-11")
+    )
+    (net "unconnected-(U1-SENSOR_VP-PadJ2-3)"
+      (pins U1-"J2-3")
+    )
+    (net "unconnected-(U1-IO32-PadJ2-7)"
+      (pins U1-"J2-7")
+    )
+    (net "unconnected-(U1-SD2-PadJ2-16)"
+      (pins U1-"J2-16")
+    )
+    (net "unconnected-(U1-IO15-PadJ3-16)"
+      (pins U1-"J3-16")
+    )
+    (net "unconnected-(U1-IO19-PadJ3-8)"
+      (pins U1-"J3-8")
+    )
+    (net "unconnected-(U1-SENSOR_VN-PadJ2-4)"
+      (pins U1-"J2-4")
+    )
+    (net "unconnected-(U1-SD1-PadJ3-17)"
+      (pins U1-"J3-17")
+    )
+    (net "unconnected-(U1-SD0-PadJ3-18)"
+      (pins U1-"J3-18")
+    )
+    (net "unconnected-(U1-IO23-PadJ3-2)"
+      (pins U1-"J3-2")
+    )
+    (net "unconnected-(U1-IO25-PadJ2-9)"
+      (pins U1-"J2-9")
+    )
+    (net "unconnected-(U1-IO5-PadJ3-10)"
+      (pins U1-"J3-10")
+    )
+    (net "unconnected-(U1-SD3-PadJ2-17)"
+      (pins U1-"J2-17")
+    )
+    (net "unconnected-(U1-IO26-PadJ2-10)"
+      (pins U1-"J2-10")
+    )
+    (net "unconnected-(U1-IO2-PadJ3-15)"
+      (pins U1-"J3-15")
+    )
+    (net "unconnected-(U1-IO14-PadJ2-12)"
+      (pins U1-"J2-12")
+    )
+    (net "unconnected-(U1-IO34-PadJ2-5)"
+      (pins U1-"J2-5")
+    )
+    (net "unconnected-(U1-IO18-PadJ3-9)"
+      (pins U1-"J3-9")
+    )
+    (net "unconnected-(U1-IO17-PadJ3-11)"
+      (pins U1-"J3-11")
+    )
+    (net "unconnected-(U1-IO4-PadJ3-13)"
+      (pins U1-"J3-13")
+    )
+    (net "unconnected-(U1-CMD-PadJ2-18)"
+      (pins U1-"J2-18")
+    )
+    (net "unconnected-(U1-IO33-PadJ2-8)"
+      (pins U1-"J2-8")
+    )
+    (net "unconnected-(U1-GND3-PadJ3-1)"
+      (pins U1-"J3-1")
+    )
+    (net "unconnected-(U1-IO12-PadJ2-13)"
+      (pins U1-"J2-13")
+    )
+    (net "unconnected-(U1-CLK-PadJ3-19)"
+      (pins U1-"J3-19")
+    )
+    (net "unconnected-(U1-IO16-PadJ3-12)"
+      (pins U1-"J3-12")
+    )
+    (net "unconnected-(U1-IO13-PadJ2-15)"
+      (pins U1-"J2-15")
+    )
+    (net "unconnected-(U1-IO0-PadJ3-14)"
+      (pins U1-"J3-14")
+    )
+    (net "unconnected-(U1-GND2-PadJ3-7)"
+      (pins U1-"J3-7")
+    )
+    (net "unconnected-(U1-TXD0-PadJ3-4)"
+      (pins U1-"J3-4")
+    )
+    (net "unconnected-(U1-RXD0-PadJ3-5)"
+      (pins U1-"J3-5")
+    )
+    (net "unconnected-(U1-IO35-PadJ2-6)"
+      (pins U1-"J2-6")
+    )
+    (class kicad_default "" /ESP32/3.3V /ESP32/SCL /ESP32/SDA GND "unconnected-(ACC1-PadAD0)"
+      "unconnected-(ACC1-PadINT)" "unconnected-(ACC1-PadXCL)" "unconnected-(ACC1-PadXDA)"
+      "unconnected-(U1-CLK-PadJ3-19)" "unconnected-(U1-CMD-PadJ2-18)" "unconnected-(U1-EN-PadJ2-2)"
+      "unconnected-(U1-EXT_5V-PadJ2-19)" "unconnected-(U1-GND2-PadJ3-7)" "unconnected-(U1-GND3-PadJ3-1)"
+      "unconnected-(U1-IO0-PadJ3-14)" "unconnected-(U1-IO12-PadJ2-13)" "unconnected-(U1-IO13-PadJ2-15)"
+      "unconnected-(U1-IO14-PadJ2-12)" "unconnected-(U1-IO15-PadJ3-16)" "unconnected-(U1-IO16-PadJ3-12)"
+      "unconnected-(U1-IO17-PadJ3-11)" "unconnected-(U1-IO18-PadJ3-9)" "unconnected-(U1-IO19-PadJ3-8)"
+      "unconnected-(U1-IO2-PadJ3-15)" "unconnected-(U1-IO23-PadJ3-2)" "unconnected-(U1-IO25-PadJ2-9)"
+      "unconnected-(U1-IO26-PadJ2-10)" "unconnected-(U1-IO27-PadJ2-11)" "unconnected-(U1-IO32-PadJ2-7)"
+      "unconnected-(U1-IO33-PadJ2-8)" "unconnected-(U1-IO34-PadJ2-5)" "unconnected-(U1-IO35-PadJ2-6)"
+      "unconnected-(U1-IO4-PadJ3-13)" "unconnected-(U1-IO5-PadJ3-10)" "unconnected-(U1-RXD0-PadJ3-5)"
+      "unconnected-(U1-SD0-PadJ3-18)" "unconnected-(U1-SD1-PadJ3-17)" "unconnected-(U1-SD2-PadJ2-16)"
+      "unconnected-(U1-SD3-PadJ2-17)" "unconnected-(U1-SENSOR_VN-PadJ2-4)"
+      "unconnected-(U1-SENSOR_VP-PadJ2-3)" "unconnected-(U1-TXD0-PadJ3-4)"
+      (circuit
+        (use_via Via[0-1]_600:300_um)
+      )
+      (rule
+        (width 200)
+        (clearance 200)
+      )
+    )
+  )
+  (wiring
+    (wire (path B.Cu 200  108120 -113198  108038 -113198)(net /ESP32/SCL)(type route))
+    (wire (path B.Cu 200  108120 -113200  108120 -113198)(net /ESP32/SCL)(type route))
+    (wire (path B.Cu 200  108122 -113198  108120 -113200)(net /ESP32/SCL)(type route))
+  )
+)
