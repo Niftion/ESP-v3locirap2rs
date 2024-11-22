@@ -51,6 +51,6 @@ void loop() {
 		
 	);
 
-	// collect every half second
+	// collect every 100ms
     delay(100);
 }
