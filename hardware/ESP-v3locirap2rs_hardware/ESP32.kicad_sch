@@ -961,7 +961,7 @@
 				)
 			)
 		)
-		(property "Footprint" "digikey-footprints:MODULE_ESP32-DEVKITC-32D"
+		(property "Footprint" "ESP-v3locirap2rs_footprints:MODULE_ESP32-DEVKITC-32D"
 			(at 135.89 100.33 0)
 			(effects
 				(font
