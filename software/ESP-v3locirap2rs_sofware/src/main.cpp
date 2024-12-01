@@ -37,14 +37,20 @@ void loop() {
         aY = (Wire.read() << 8) | Wire.read();
         aZ = (Wire.read() << 8) | Wire.read();
     }
+	float aXg = aX/8192.0;
+	float aYg = aY/8192.0;
+	float aZg = aZ/8192.0;
+	float magnitude = sqrt(aXg*aXg + aYg*aYg + aZg*aZg);
 
     // print acceleration data
     Serial.println(
-		"Accel X: " + String(aX) + " | "
-		"Accel Y: " + String(aY) + " | "
-		"Accel Z: " + String(aZ) + " | "
+		"Magnitude: " + String(magnitude) + " | "
+		"Accel X: " + String(aXg) + " | "
+		"Accel Y: " + String(aYg) + " | "
+		"Accel Z: " + String(aZg) + " | "
+		
 	);
 
-	// collect every half second
-    delay(500);
+	// collect every 100ms
+    delay(100);
 }
