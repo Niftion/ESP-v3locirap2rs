@@ -590,6 +590,10 @@
     [
       "45c7bb6b-116c-4575-ab42-1e2bf831f3e2",
       "LCD-Screen"
+    ],
+    [
+      "ed9f44f0-dc62-4966-af63-34aa6c3a7ac0",
+      "Power-Supply"
     ]
   ],
   "text_variables": {}
