@@ -957,7 +957,7 @@
 				)
 			)
 		)
-		(property "Footprint" "digikey-footprints:TO-220-3"
+		(property "Footprint" "Package_TO_SOT_THT:TO-220-3_Vertical"
 			(at 137.16 132.08 0)
 			(effects
 				(font
@@ -1163,7 +1163,7 @@
 	)
 	(symbol
 		(lib_id "dk_Battery-Holders-Clips-Contacts:BC9VPC")
-		(at 116.84 137.16 0)
+		(at 116.84 137.16 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1172,7 +1172,7 @@
 		(fields_autoplaced yes)
 		(uuid "8d7371ef-bc8c-4035-b88d-c90f89d43a15")
 		(property "Reference" "BAT1"
-			(at 116.459 129.54 0)
+			(at 117.221 129.54 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -1180,15 +1180,15 @@
 			)
 		)
 		(property "Value" "BC9VPC"
-			(at 116.459 132.08 0)
+			(at 117.221 132.08 0)
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
 			)
 		)
-		(property "Footprint" "digikey-footprints:Battery_Holder_9V_BC9VPC-ND"
-			(at 121.92 132.08 0)
+		(property "Footprint" "Battery:BatteryHolder_Eagle_12BH611-GR"
+			(at 111.76 142.24 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -1198,7 +1198,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.memoryprotectiondevices.com/datasheets/BC9VPC-datasheet.pdf"
-			(at 121.92 129.54 0)
+			(at 111.76 144.78 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -1217,7 +1217,7 @@
 			)
 		)
 		(property "Digi-Key_PN" "BC9VPC-ND"
-			(at 121.92 127 0)
+			(at 111.76 147.32 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -1227,7 +1227,7 @@
 			)
 		)
 		(property "MPN" "BC9VPC"
-			(at 121.92 124.46 0)
+			(at 111.76 149.86 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -1237,7 +1237,7 @@
 			)
 		)
 		(property "Category" "Battery Products"
-			(at 121.92 121.92 0)
+			(at 111.76 152.4 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -1247,7 +1247,7 @@
 			)
 		)
 		(property "Family" "Battery Holders, Clips, Contacts"
-			(at 121.92 119.38 0)
+			(at 111.76 154.94 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -1257,7 +1257,7 @@
 			)
 		)
 		(property "DK_Datasheet_Link" "http://www.memoryprotectiondevices.com/datasheets/BC9VPC-datasheet.pdf"
-			(at 121.92 116.84 0)
+			(at 111.76 157.48 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -1267,7 +1267,7 @@
 			)
 		)
 		(property "DK_Detail_Page" "/product-detail/en/mpd-memory-protection-devices/BC9VPC/BC9VPC-ND/257747"
-			(at 121.92 114.3 0)
+			(at 111.76 160.02 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -1277,7 +1277,7 @@
 			)
 		)
 		(property "Description_1" "BATTERY HOLDER 9V PC PIN"
-			(at 121.92 111.76 0)
+			(at 111.76 162.56 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -1287,7 +1287,7 @@
 			)
 		)
 		(property "Manufacturer" "MPD (Memory Protection Devices)"
-			(at 121.92 109.22 0)
+			(at 111.76 165.1 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -1297,7 +1297,7 @@
 			)
 		)
 		(property "Status" "Active"
-			(at 121.92 106.68 0)
+			(at 111.76 167.64 0)
 			(effects
 				(font
 					(size 1.524 1.524)
