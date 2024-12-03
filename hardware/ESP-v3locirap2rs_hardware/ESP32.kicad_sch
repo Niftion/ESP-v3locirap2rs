@@ -887,6 +887,42 @@
 		)
 		(uuid "f4a9ef68-38a5-4a23-af65-380085b766e8")
 	)
+	(hierarchical_label "Pin 23"
+		(shape output)
+		(at 156.21 80.01 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "19952673-b2da-40db-9e90-1ad179d8cda6")
+	)
+	(hierarchical_label "Pin 17"
+		(shape output)
+		(at 156.21 102.87 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "233e7d60-6a78-4b17-a55a-7a10f7c96bb8")
+	)
+	(hierarchical_label "Pin 19"
+		(shape output)
+		(at 156.21 95.25 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "3bf7a2c8-0bf0-4749-9239-5bcd7179698e")
+	)
 	(hierarchical_label "SCL"
 		(shape output)
 		(at 156.21 82.55 0)
@@ -898,6 +934,18 @@
 			(justify left)
 		)
 		(uuid "42a8eb5d-36b5-429e-b364-4c7dfd28d5d0")
+	)
+	(hierarchical_label "Pin 15"
+		(shape output)
+		(at 156.21 115.57 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "648dd8d2-b375-40cd-8ab5-4ba1b2c0d794")
 	)
 	(hierarchical_label "GND"
 		(shape passive)
@@ -911,6 +959,30 @@
 		)
 		(uuid "9050950f-0b26-40ef-b706-af1c831b5c37")
 	)
+	(hierarchical_label "Pin 18"
+		(shape output)
+		(at 156.21 97.79 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b0826c13-078e-4ad7-afbf-8f20d444c8bf")
+	)
+	(hierarchical_label "Pin 16"
+		(shape output)
+		(at 156.21 105.41 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b8b4e4a4-f78e-4c8e-a0f7-4f1af266b874")
+	)
 	(hierarchical_label "3.3V"
 		(shape output)
 		(at 115.57 77.47 180)
@@ -922,6 +994,18 @@
 			(justify right)
 		)
 		(uuid "c84db005-2f2f-4a93-821d-79e87b6a53a6")
+	)
+	(hierarchical_label "5V"
+		(shape input)
+		(at 115.57 123.19 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "cf5f37da-73d2-4bf6-8dd1-78b1814e1c32")
 	)
 	(hierarchical_label "SDA"
 		(shape bidirectional)
