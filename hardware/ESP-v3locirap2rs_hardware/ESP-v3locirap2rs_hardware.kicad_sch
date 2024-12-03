@@ -238,6 +238,28 @@
 		)
 		(uuid "e30e91b1-81c9-4c7a-a450-7a9368eefc28")
 	)
+	(rectangle
+		(start 142.24 90.17)
+		(end 200.66 120.65)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid e9e9f8e7-44d2-4cab-bba1-197330881ed5)
+	)
+	(text "ESP32 Block"
+		(exclude_from_sim no)
+		(at 149.098 89.154 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "dea9f74d-66f1-4ed6-802d-817b08734a20")
+	)
 	(symbol
 		(lib_id "power:GND")
 		(at 191.77 111.76 90)
